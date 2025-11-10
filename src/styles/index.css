@@ -1,0 +1,158 @@
+@import "@radix-ui/colors/mauve.css";
+@import "@radix-ui/colors/tomato.css";
+@import "@radix-ui/colors/tomato-alpha.css";
+@import "tailwindcss";
+
+:root {
+  --renstack-colors-primary-base: var(--tomato-1);
+  --renstack-colors-primary-bg-subtle: var(--tomato-2);
+  --renstack-colors-primary-bg-shape: var(--tomato-3);
+  --renstack-colors-primary-bg-hover: var(--tomato-4);
+  --renstack-colors-primary-bg-active: var(--tomato-5);
+  --renstack-colors-primary-line: var(--tomato-6);
+  --renstack-colors-primary-border: var(--tomato-7);
+  --renstack-colors-primary-border-hover: var(--tomato-8);
+  --renstack-colors-primary-focus-ring: var(--tomato-8);
+  --renstack-colors-primary-solid: var(--tomato-9);
+  --renstack-colors-primary-solid-hover: var(--tomato-10);
+  --renstack-colors-primary-text-subtle: var(--tomato-11);
+  --renstack-colors-primary-text: var(--tomato-12);
+
+  --renstack-colors-primary-base-alpha: var(--tomato-a1);
+  --renstack-colors-primary-bg-subtle-alpha: var(--tomato-a2);
+  --renstack-colors-primary-bg-shape-alpha: var(--tomato-a3);
+  --renstack-colors-primary-bg-hover-alpha: var(--tomato-a4);
+  --renstack-colors-primary-bg-active-alpha: var(--tomato-a5);
+  --renstack-colors-primary-line-alpha: var(--tomato-a6);
+  --renstack-colors-primary-border-alpha: var(--tomato-a7);
+  --renstack-colors-primary-border-hover-alpha: var(--tomato-a8);
+  --renstack-colors-primary-focus-ring-alpha: var(--tomato-a8);
+  --renstack-colors-primary-solid-alpha: var(--tomato-a9);
+  --renstack-colors-primary-solid-hover-alpha: var(--tomato-a10);
+  --renstack-colors-primary-text-subtle-alpha: var(--tomato-a11);
+  --renstack-colors-primary-text-alpha: var(--tomato-a12);
+
+  --renstack-colors-neutral-base: var(--mauve-1);
+  --renstack-colors-neutral-bg-subtle: var(--mauve-2);
+  --renstack-colors-neutral-bg-shape: var(--mauve-3);
+  --renstack-colors-neutral-bg-hover: var(--mauve-4);
+  --renstack-colors-neutral-bg-active: var(--mauve-5);
+  --renstack-colors-neutral-line: var(--mauve-6);
+  --renstack-colors-neutral-border: var(--mauve-7);
+  --renstack-colors-neutral-border-hover: var(--mauve-8);
+  --renstack-colors-neutral-focus-ring: var(--mauve-8);
+  --renstack-colors-neutral-solid: var(--mauve-9);
+  --renstack-colors-neutral-solid-hover: var(--mauve-10);
+  --renstack-colors-neutral-text-subtle: var(--mauve-11);
+  --renstack-colors-neutral-text: var(--mauve-12);
+
+  --renstack-colors-neutral-base-alpha: var(--mauve-a1);
+  --renstack-colors-neutral-bg-subtle-alpha: var(--mauve-a2);
+  --renstack-colors-neutral-bg-shape-alpha: var(--mauve-a3);
+  --renstack-colors-neutral-bg-hover-alpha: var(--mauve-a4);
+  --renstack-colors-neutral-bg-active-alpha: var(--mauve-a5);
+  --renstack-colors-neutral-line-alpha: var(--mauve-a6);
+  --renstack-colors-neutral-border-alpha: var(--mauve-a7);
+  --renstack-colors-neutral-border-hover-alpha: var(--mauve-a8);
+  --renstack-colors-neutral-focus-ring-alpha: var(--mauve-a8);
+  --renstack-colors-neutral-solid-alpha: var(--mauve-a9);
+  --renstack-colors-neutral-solid-hover-alpha: var(--mauve-a10);
+  --renstack-colors-neutral-text-subtle-alpha: var(--mauve-a11);
+  --renstack-colors-neutral-text-alpha: var(--mauve-a12);
+}
+
+@theme inline {
+  --color-focus: var(--renstack-colors-focus);
+
+  --color-primary-solid: var(--renstack-colors-primary-solid);
+  --color-primary-solid-hover: var(--renstack-colors-primary-solid-hover);
+  --color-primary-base: var(--renstack-colors-primary-base);
+  --color-primary-bg-subtle: var(--renstack-colors-primary-bg-subtle);
+  --color-primary-bg-shape: var(--renstack-colors-primary-bg-shape);
+  --color-primary-bg-hover: var(--renstack-colors-primary-bg-hover);
+  --color-primary-bg-active: var(--renstack-colors-primary-bg-active);
+  --color-primary-line: var(--renstack-colors-primary-line);
+  --color-primary-border: var(--renstack-colors-primary-border);
+  --color-primary-border-hover: var(--renstack-colors-primary-border-hover);
+  --color-neutral-focus-ring: var(--renstack-colors-primary-focus-ring);
+  --color-primary-text: var(--renstack-colors-primary-text);
+  --color-primary-text-subtle: var(--renstack-colors-primary-text-subtle);
+
+  --color-primary-solid-alpha: var(--renstack-colors-primary-solid-alpha);
+  --color-primary-solid-hover-alpha: var(
+    --renstack-colors-primary-solid-hover-alpha
+  );
+  --color-primary-base-alpha: var(--renstack-colors-primary-base-alpha);
+  --color-primary-bg-subtle-alpha: var(
+    --renstack-colors-primary-bg-subtle-alpha
+  );
+  --color-primary-bg-shape-alpha: var(--renstack-colors-primary-bg-shape-alpha);
+  --color-primary-bg-hover-alpha: var(--renstack-colors-primary-bg-hover-alpha);
+  --color-primary-bg-active-alpha: var(
+    --renstack-colors-primary-bg-active-alpha
+  );
+  --color-primary-line-alpha: var(--renstack-colors-primary-line-alpha);
+  --color-primary-border-alpha: var(--renstack-colors-primary-border-alpha);
+  --color-primary-border-hover-alpha: var(
+    --renstack-colors-primary-border-hover-alpha
+  );
+  --color-neutral-focus-ring-alpha: var(
+    --renstack-colors-primary-focus-ring-alpha
+  );
+  --color-primary-text-alpha: var(--renstack-colors-primary-text-alpha);
+  --color-primary-text-subtle-alpha: var(
+    --renstack-colors-primary-text-subtle-alpha
+  );
+
+  --color-neutral-solid: var(--renstack-colors-neutral-solid);
+  --color-neutral-solid-hover: var(--renstack-colors-neutral-solid-hover);
+  --color-neutral-base: var(--renstack-colors-neutral-base);
+  --color-neutral-bg-subtle: var(--renstack-colors-neutral-bg-subtle);
+  --color-neutral-bg-shape: var(--renstack-colors-neutral-bg-shape);
+  --color-neutral-bg-hover: var(--renstack-colors-neutral-bg-hover);
+  --color-neutral-bg-active: var(--renstack-colors-neutral-bg-active);
+  --color-neutral-line: var(--renstack-colors-neutral-line);
+  --color-neutral-border: var(--renstack-colors-neutral-border);
+  --color-neutral-border-hover: var(--renstack-colors-neutral-border-hover);
+  --color-neutral-focus-ring: var(--renstack-colors-neutral-focus-ring);
+  --color-neutral-text: var(--renstack-colors-neutral-text);
+  --color-neutral-text-subtle: var(--renstack-colors-neutral-text-subtle);
+  --color-neutral-placeholder-text: var(
+    --renstack-colors-neutral-placeholder-text
+  );
+
+  --color-neutral-solid-alpha: var(--renstack-colors-neutral-solid-alpha);
+  --color-neutral-solid-hover-alpha: var(
+    --renstack-colors-neutral-solid-hover-alpha
+  );
+  --color-neutral-base-alpha: var(--renstack-colors-neutral-base-alpha);
+  --color-neutral-bg-subtle-alpha: var(
+    --renstack-colors-neutral-bg-subtle-alpha
+  );
+  --color-neutral-bg-shape-alpha: var(--renstack-colors-neutral-bg-shape-alpha);
+  --color-neutral-bg-hover-alpha: var(--renstack-colors-neutral-bg-hover-alpha);
+  --color-neutral-bg-active-alpha: var(
+    --renstack-colors-neutral-bg-active-alpha
+  );
+  --color-neutral-line-alpha: var(--renstack-colors-neutral-line-alpha);
+  --color-neutral-border-alpha: var(--renstack-colors-neutral-border-alpha);
+  --color-neutral-border-hover-alpha: var(
+    --renstack-colors-neutral-border-hover-alpha
+  );
+  --color-neutral-focus-ring-alpha: var(
+    --renstack-colors-neutral-focus-ring-alpha
+  );
+  --color-neutral-text-alpha: var(--renstack-colors-neutral-text-alpha);
+  --color-neutral-text-subtle-alpha: var(
+    --renstack-colors-neutral-text-subtle-alpha
+  );
+  --color-neutral-placeholder-text-alpha: var(
+    --renstack-colors-neutral-placeholder-text-alpha
+  );
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-base text-neutral-text antialiased;
+  }
+}
