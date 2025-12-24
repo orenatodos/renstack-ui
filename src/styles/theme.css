@@ -1,0 +1,90 @@
+/* postcss-ignore */
+@theme inline {
+  --color-focus: var(--renstack-colors-focus);
+
+  --color-primary-solid: var(--renstack-colors-primary-solid);
+  --color-primary-solid-hover: var(--renstack-colors-primary-solid-hover);
+  --color-primary-base: var(--renstack-colors-primary-base);
+  --color-primary-bg-subtle: var(--renstack-colors-primary-bg-subtle);
+  --color-primary-bg-shape: var(--renstack-colors-primary-bg-shape);
+  --color-primary-bg-hover: var(--renstack-colors-primary-bg-hover);
+  --color-primary-bg-active: var(--renstack-colors-primary-bg-active);
+  --color-primary-line: var(--renstack-colors-primary-line);
+  --color-primary-border: var(--renstack-colors-primary-border);
+  --color-primary-border-hover: var(--renstack-colors-primary-border-hover);
+  --color-neutral-focus-ring: var(--renstack-colors-primary-focus-ring);
+  --color-primary-text: var(--renstack-colors-primary-text);
+  --color-primary-text-subtle: var(--renstack-colors-primary-text-subtle);
+
+  --color-primary-solid-alpha: var(--renstack-colors-primary-solid-alpha);
+  --color-primary-solid-hover-alpha: var(
+    --renstack-colors-primary-solid-hover-alpha
+  );
+  --color-primary-base-alpha: var(--renstack-colors-primary-base-alpha);
+  --color-primary-bg-subtle-alpha: var(
+    --renstack-colors-primary-bg-subtle-alpha
+  );
+  --color-primary-bg-shape-alpha: var(--renstack-colors-primary-bg-shape-alpha);
+  --color-primary-bg-hover-alpha: var(--renstack-colors-primary-bg-hover-alpha);
+  --color-primary-bg-active-alpha: var(
+    --renstack-colors-primary-bg-active-alpha
+  );
+  --color-primary-line-alpha: var(--renstack-colors-primary-line-alpha);
+  --color-primary-border-alpha: var(--renstack-colors-primary-border-alpha);
+  --color-primary-border-hover-alpha: var(
+    --renstack-colors-primary-border-hover-alpha
+  );
+  --color-neutral-focus-ring-alpha: var(
+    --renstack-colors-primary-focus-ring-alpha
+  );
+  --color-primary-text-alpha: var(--renstack-colors-primary-text-alpha);
+  --color-primary-text-subtle-alpha: var(
+    --renstack-colors-primary-text-subtle-alpha
+  );
+
+  --color-neutral-solid: var(--renstack-colors-neutral-solid);
+  --color-neutral-solid-hover: var(--renstack-colors-neutral-solid-hover);
+  --color-neutral-base: var(--renstack-colors-neutral-base);
+  --color-neutral-bg-subtle: var(--renstack-colors-neutral-bg-subtle);
+  --color-neutral-bg-shape: var(--renstack-colors-neutral-bg-shape);
+  --color-neutral-bg-hover: var(--renstack-colors-neutral-bg-hover);
+  --color-neutral-bg-active: var(--renstack-colors-neutral-bg-active);
+  --color-neutral-line: var(--renstack-colors-neutral-line);
+  --color-neutral-border: var(--renstack-colors-neutral-border);
+  --color-neutral-border-hover: var(--renstack-colors-neutral-border-hover);
+  --color-neutral-focus-ring: var(--renstack-colors-neutral-focus-ring);
+  --color-neutral-text: var(--renstack-colors-neutral-text);
+  --color-neutral-text-subtle: var(--renstack-colors-neutral-text-subtle);
+  --color-neutral-placeholder-text: var(
+    --renstack-colors-neutral-placeholder-text
+  );
+
+  --color-neutral-solid-alpha: var(--renstack-colors-neutral-solid-alpha);
+  --color-neutral-solid-hover-alpha: var(
+    --renstack-colors-neutral-solid-hover-alpha
+  );
+  --color-neutral-base-alpha: var(--renstack-colors-neutral-base-alpha);
+  --color-neutral-bg-subtle-alpha: var(
+    --renstack-colors-neutral-bg-subtle-alpha
+  );
+  --color-neutral-bg-shape-alpha: var(--renstack-colors-neutral-bg-shape-alpha);
+  --color-neutral-bg-hover-alpha: var(--renstack-colors-neutral-bg-hover-alpha);
+  --color-neutral-bg-active-alpha: var(
+    --renstack-colors-neutral-bg-active-alpha
+  );
+  --color-neutral-line-alpha: var(--renstack-colors-neutral-line-alpha);
+  --color-neutral-border-alpha: var(--renstack-colors-neutral-border-alpha);
+  --color-neutral-border-hover-alpha: var(
+    --renstack-colors-neutral-border-hover-alpha
+  );
+  --color-neutral-focus-ring-alpha: var(
+    --renstack-colors-neutral-focus-ring-alpha
+  );
+  --color-neutral-text-alpha: var(--renstack-colors-neutral-text-alpha);
+  --color-neutral-text-subtle-alpha: var(
+    --renstack-colors-neutral-text-subtle-alpha
+  );
+  --color-neutral-placeholder-text-alpha: var(
+    --renstack-colors-neutral-placeholder-text-alpha
+  );
+}
